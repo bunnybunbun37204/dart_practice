@@ -41,4 +41,16 @@ class Food {
   List<String> getCookingMethod() => _cooking_method;
 
   double getCals() => _cals;
+
+  //special
+  Map<String, dynamic> toMap() {
+    return Map.of({
+      "food_name": _food_name,
+      "food_ingredients": _food_ingredients,
+      "cooking_method": _cooking_method,
+      "food_cals": _cals,
+      "image": _image,
+      "tutorial": _tutorial
+    });
+  }
 }
