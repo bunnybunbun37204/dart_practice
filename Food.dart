@@ -1,7 +1,6 @@
 class Food {
   late final String _food_name, _image, _tutorial;
-  late final List<String> _food_ingredients;
-  late final List<String> _cooking_method;
+  late final List<String> _food_ingredients, _cooking_method;
   late final double _cals;
 
   //Constructor
